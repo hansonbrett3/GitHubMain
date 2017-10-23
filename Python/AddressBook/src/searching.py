@@ -1,4 +1,5 @@
-name=input("Please enter your name")
+name=input("Please enter your name: ")
+print()
 name=name.lower()
 
 addressbook = open("addressbookdb.txt")
@@ -15,4 +16,4 @@ for line in addressbook:
 if found == False:
     print("Name not found, unlucky!!")
 else:
-    print(record[0], record[1])
+    print(record[0],record[1],record[2])
