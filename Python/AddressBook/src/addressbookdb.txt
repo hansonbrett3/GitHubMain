@@ -1,0 +1,6 @@
+name|age|gender
+
+brett|26|male
+john|42|male
+mary|45|female
+sam|45|female
