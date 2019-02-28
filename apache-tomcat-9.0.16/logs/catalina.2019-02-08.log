@@ -1,0 +1,110 @@
+08-Feb-2019 17:25:35.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+08-Feb-2019 17:25:35.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+08-Feb-2019 17:25:35.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+08-Feb-2019 17:25:35.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Feb-2019 17:25:35.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+08-Feb-2019 17:25:35.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+08-Feb-2019 17:25:35.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+08-Feb-2019 17:25:35.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+08-Feb-2019 17:25:35.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Feb-2019 17:25:35.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+08-Feb-2019 17:25:35.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+08-Feb-2019 17:25:35.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/logging.properties
+08-Feb-2019 17:25:35.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2019 17:25:35.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2019 17:25:35.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2019 17:25:35.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2019 17:25:35.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2019 17:25:35.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+08-Feb-2019 17:25:35.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+08-Feb-2019 17:25:35.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/temp
+08-Feb-2019 17:25:35.886 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bretthanson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Feb-2019 17:25:36.061 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2019 17:25:36.103 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Feb-2019 17:25:36.105 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [658] milliseconds
+08-Feb-2019 17:25:36.133 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2019 17:25:36.133 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+08-Feb-2019 17:25:36.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/docs]
+08-Feb-2019 17:25:36.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/docs] has finished in [292] ms
+08-Feb-2019 17:25:36.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/manager]
+08-Feb-2019 17:25:36.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/manager] has finished in [27] ms
+08-Feb-2019 17:25:36.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/examples]
+08-Feb-2019 17:25:36.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/examples] has finished in [234] ms
+08-Feb-2019 17:25:36.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/ROOT]
+08-Feb-2019 17:25:36.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/ROOT] has finished in [15] ms
+08-Feb-2019 17:25:36.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/host-manager]
+08-Feb-2019 17:25:36.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/host-manager] has finished in [16] ms
+08-Feb-2019 17:25:36.727 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Feb-2019 17:25:36.733 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Feb-2019 17:25:36.735 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [629] milliseconds
+08-Feb-2019 17:26:42.764 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Feb-2019 17:26:42.764 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Feb-2019 17:26:42.773 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-Feb-2019 17:26:42.781 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Feb-2019 17:26:42.804 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Feb-2019 17:26:42.807 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-Feb-2019 17:26:42.808 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Feb-2019 17:26:42.810 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+08-Feb-2019 17:26:58.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+08-Feb-2019 17:26:58.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+08-Feb-2019 17:26:58.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+08-Feb-2019 17:26:58.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Feb-2019 17:26:58.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+08-Feb-2019 17:26:58.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+08-Feb-2019 17:26:58.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+08-Feb-2019 17:26:58.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+08-Feb-2019 17:26:58.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Feb-2019 17:26:58.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+08-Feb-2019 17:26:58.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+08-Feb-2019 17:26:58.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/logging.properties
+08-Feb-2019 17:26:58.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2019 17:26:58.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2019 17:26:58.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2019 17:26:58.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2019 17:26:58.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2019 17:26:58.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+08-Feb-2019 17:26:58.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+08-Feb-2019 17:26:58.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/temp
+08-Feb-2019 17:26:58.555 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bretthanson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Feb-2019 17:26:58.673 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2019 17:26:58.702 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Feb-2019 17:26:58.703 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [506] milliseconds
+08-Feb-2019 17:26:58.728 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2019 17:26:58.728 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+08-Feb-2019 17:26:58.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/docs]
+08-Feb-2019 17:26:58.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/docs] has finished in [257] ms
+08-Feb-2019 17:26:58.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/manager]
+08-Feb-2019 17:26:59.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/manager] has finished in [33] ms
+08-Feb-2019 17:26:59.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/examples]
+08-Feb-2019 17:26:59.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/examples] has finished in [236] ms
+08-Feb-2019 17:26:59.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/ROOT]
+08-Feb-2019 17:26:59.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/ROOT] has finished in [13] ms
+08-Feb-2019 17:26:59.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/host-manager]
+08-Feb-2019 17:26:59.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/host-manager] has finished in [14] ms
+08-Feb-2019 17:26:59.292 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Feb-2019 17:26:59.298 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Feb-2019 17:26:59.300 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [595] milliseconds
+08-Feb-2019 17:46:29.750 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/tomcat-users.xml]
+08-Feb-2019 17:46:43.438 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml]
+08-Feb-2019 17:46:43.438 WARNING [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FirstMavenProjectUsingArchetype] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml] has been ignored
+08-Feb-2019 17:46:44.422 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2019 17:46:44.457 INFO [http-nio-8080-exec-4] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+08-Feb-2019 17:46:44.580 INFO [http-nio-8080-exec-4] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Feb 08 17:46:44 EST 2019]; root of context hierarchy
+08-Feb-2019 17:46:44.641 INFO [http-nio-8080-exec-4] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+08-Feb-2019 17:46:44.982 INFO [http-nio-8080-exec-4] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+08-Feb-2019 17:46:45.141 INFO [http-nio-8080-exec-4] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+08-Feb-2019 17:46:45.340 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.firstmavenprojectusingarchetype.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+08-Feb-2019 17:46:45.408 INFO [http-nio-8080-exec-4] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+08-Feb-2019 17:46:45.984 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Fri Feb 08 17:46:44 EST 2019]; root of context hierarchy
+08-Feb-2019 17:46:46.042 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Fri Feb 08 17:46:44 EST 2019]; root of context hierarchy
+08-Feb-2019 17:46:46.138 INFO [http-nio-8080-exec-4] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1681 ms
+08-Feb-2019 17:46:46.143 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml] has finished in [2,705] ms
+08-Feb-2019 17:46:46.150 INFO [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FirstMavenProjectUsingArchetype]] after start() had already been called. The second call will be ignored.
+08-Feb-2019 17:46:49.054 INFO [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring-dispatcher': initialization started
+08-Feb-2019 17:46:49.060 INFO [http-nio-8080-exec-6] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Fri Feb 08 17:46:49 EST 2019]; parent: Root WebApplicationContext
+08-Feb-2019 17:46:49.061 INFO [http-nio-8080-exec-6] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+08-Feb-2019 17:46:49.101 INFO [http-nio-8080-exec-6] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+08-Feb-2019 17:46:49.119 INFO [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.firstmavenprojectusingarchetype.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+08-Feb-2019 17:46:49.146 INFO [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Fri Feb 08 17:46:49 EST 2019]; parent: Root WebApplicationContext
+08-Feb-2019 17:46:49.160 INFO [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Fri Feb 08 17:46:49 EST 2019]; parent: Root WebApplicationContext
+08-Feb-2019 17:46:49.202 INFO [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring-dispatcher': initialization completed in 148 ms

@@ -1,0 +1,471 @@
+16-Feb-2019 15:29:46.681 INFO [http-nio-8083-exec-27] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Feb 15 12:07:20 EST 2019]; root of context hierarchy
+16-Feb-2019 15:29:47.241 INFO [http-nio-8083-exec-27] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 15:29:47.259 INFO [http-nio-8083-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 15:29:47.263 WARNING [http-nio-8083-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 15:29:48.601 INFO [http-nio-8083-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 15:29:48.638 INFO [http-nio-8083-exec-26] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 15:29:48.797 INFO [http-nio-8083-exec-26] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 15:29:48 EST 2019]; root of context hierarchy
+16-Feb-2019 15:29:48.859 INFO [http-nio-8083-exec-26] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 15:29:49.070 INFO [http-nio-8083-exec-26] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 15:29:49.201 INFO [http-nio-8083-exec-26] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 15:29:49.378 INFO [http-nio-8083-exec-26] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 15:29:49.431 INFO [http-nio-8083-exec-26] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 15:29:49.751 INFO [http-nio-8083-exec-26] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 15:29:48 EST 2019]; root of context hierarchy
+16-Feb-2019 15:29:49.808 INFO [http-nio-8083-exec-26] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 15:29:48 EST 2019]; root of context hierarchy
+16-Feb-2019 15:29:49.907 INFO [http-nio-8083-exec-26] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1268 ms
+16-Feb-2019 15:29:49.910 INFO [http-nio-8083-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [2,650] ms
+16-Feb-2019 15:29:49.918 INFO [http-nio-8083-exec-22] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 16:26:27.046 INFO [http-nio-8083-exec-39] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 15:29:48 EST 2019]; root of context hierarchy
+16-Feb-2019 16:26:27.570 INFO [http-nio-8083-exec-39] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 16:52:50.614 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2019 16:52:50.614 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+16-Feb-2019 16:52:50.624 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 16:52:50.631 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2019 16:52:50.641 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Feb 15 11:23:43 EST 2019]; root of context hierarchy
+16-Feb-2019 16:52:50.672 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+16-Feb-2019 16:52:50.675 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 16:52:50.677 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+16-Feb-2019 16:52:50.678 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 18:44:08.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+16-Feb-2019 18:44:08.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+16-Feb-2019 18:44:08.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+16-Feb-2019 18:44:08.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+16-Feb-2019 18:44:08.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+16-Feb-2019 18:44:08.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+16-Feb-2019 18:44:08.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home
+16-Feb-2019 18:44:08.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.1+13-LTS
+16-Feb-2019 18:44:08.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Feb-2019 18:44:08.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+16-Feb-2019 18:44:08.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+16-Feb-2019 18:44:08.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2019 18:44:08.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2019 18:44:08.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2019 18:44:08.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/logging.properties
+16-Feb-2019 18:44:08.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2019 18:44:08.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Bretts-MacBook-Pro.local
+16-Feb-2019 18:44:08.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2019 18:44:08.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2019 18:44:08.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2019 18:44:08.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Feb-2019 18:44:08.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+16-Feb-2019 18:44:08.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+16-Feb-2019 18:44:08.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/temp
+16-Feb-2019 18:44:08.920 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bretthanson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+16-Feb-2019 18:44:09.055 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+16-Feb-2019 18:44:09.140 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 18:44:09.155 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,220] milliseconds
+16-Feb-2019 18:44:09.318 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2019 18:44:09.319 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+16-Feb-2019 18:44:09.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml]
+16-Feb-2019 18:44:09.369 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FirstMavenProjectUsingArchetype] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml] has been ignored
+16-Feb-2019 18:44:11.357 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 18:44:11.419 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 18:44:11.611 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 18:44:11 EST 2019]; root of context hierarchy
+16-Feb-2019 18:44:11.681 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 18:44:12.000 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 18:44:12.147 INFO [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 18:44:12.385 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.firstmavenprojectusingarchetype.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 18:44:12.451 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 18:44:12.823 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 18:44:11 EST 2019]; root of context hierarchy
+16-Feb-2019 18:44:12.899 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 18:44:11 EST 2019]; root of context hierarchy
+16-Feb-2019 18:44:13.028 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1609 ms
+16-Feb-2019 18:44:13.067 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml] has finished in [3,732] ms
+16-Feb-2019 18:44:13.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/docs]
+16-Feb-2019 18:44:13.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/docs] has finished in [26] ms
+16-Feb-2019 18:44:13.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/manager]
+16-Feb-2019 18:44:13.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/manager] has finished in [37] ms
+16-Feb-2019 18:44:13.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/examples]
+16-Feb-2019 18:44:13.381 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/examples] has finished in [250] ms
+16-Feb-2019 18:44:13.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/ROOT]
+16-Feb-2019 18:44:13.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/ROOT] has finished in [25] ms
+16-Feb-2019 18:44:13.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/host-manager]
+16-Feb-2019 18:44:13.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/host-manager] has finished in [27] ms
+16-Feb-2019 18:44:13.443 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+16-Feb-2019 18:44:13.465 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 18:44:13.475 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4,319] milliseconds
+16-Feb-2019 18:44:15.824 INFO [http-nio-8083-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 18:44:15.826 WARNING [http-nio-8083-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 18:44:16.779 INFO [http-nio-8083-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 18:44:16.816 INFO [http-nio-8083-exec-9] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 18:44:16.955 INFO [http-nio-8083-exec-9] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 18:44:16 EST 2019]; root of context hierarchy
+16-Feb-2019 18:44:17.013 INFO [http-nio-8083-exec-9] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 18:44:17.220 INFO [http-nio-8083-exec-9] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 18:44:17.389 INFO [http-nio-8083-exec-9] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 18:44:17.603 INFO [http-nio-8083-exec-9] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 18:44:17.657 INFO [http-nio-8083-exec-9] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 18:44:18.070 INFO [http-nio-8083-exec-9] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 18:44:16 EST 2019]; root of context hierarchy
+16-Feb-2019 18:44:18.156 INFO [http-nio-8083-exec-9] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 18:44:16 EST 2019]; root of context hierarchy
+16-Feb-2019 18:44:18.279 INFO [http-nio-8083-exec-9] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1463 ms
+16-Feb-2019 18:44:18.283 INFO [http-nio-8083-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [2,459] ms
+16-Feb-2019 18:44:18.293 INFO [http-nio-8083-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 18:46:08.883 INFO [http-nio-8083-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ContacListMVC] has started
+16-Feb-2019 18:46:08.900 INFO [http-nio-8083-exec-1] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 18:44:16 EST 2019]; root of context hierarchy
+16-Feb-2019 18:46:09.982 INFO [http-nio-8083-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 18:46:10.029 INFO [http-nio-8083-exec-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 18:46:10.179 INFO [http-nio-8083-exec-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 18:46:10 EST 2019]; root of context hierarchy
+16-Feb-2019 18:46:10.256 INFO [http-nio-8083-exec-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 18:46:10.557 INFO [http-nio-8083-exec-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 18:46:10.772 INFO [http-nio-8083-exec-1] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 18:46:11.021 INFO [http-nio-8083-exec-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 18:46:11.081 INFO [http-nio-8083-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 18:46:11.518 INFO [http-nio-8083-exec-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 18:46:10 EST 2019]; root of context hierarchy
+16-Feb-2019 18:46:11.588 INFO [http-nio-8083-exec-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 18:46:10 EST 2019]; root of context hierarchy
+16-Feb-2019 18:46:11.690 INFO [http-nio-8083-exec-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1661 ms
+16-Feb-2019 18:46:11.699 INFO [http-nio-8083-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ContacListMVC] is completed
+16-Feb-2019 19:14:38.979 INFO [http-nio-8083-exec-14] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 18:46:10 EST 2019]; root of context hierarchy
+16-Feb-2019 19:14:39.498 INFO [http-nio-8083-exec-14] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 19:14:39.532 INFO [http-nio-8083-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 19:14:39.534 WARNING [http-nio-8083-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 19:14:40.307 INFO [http-nio-8083-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 19:14:40.335 INFO [http-nio-8083-exec-16] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 19:14:40.433 INFO [http-nio-8083-exec-16] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 19:14:40 EST 2019]; root of context hierarchy
+16-Feb-2019 19:14:40.478 INFO [http-nio-8083-exec-16] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 19:14:40.644 INFO [http-nio-8083-exec-16] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 19:14:40.762 INFO [http-nio-8083-exec-16] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 19:14:40.908 INFO [http-nio-8083-exec-16] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 19:14:40.952 INFO [http-nio-8083-exec-16] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 19:14:41.273 INFO [http-nio-8083-exec-16] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 19:14:40 EST 2019]; root of context hierarchy
+16-Feb-2019 19:14:41.330 INFO [http-nio-8083-exec-16] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 19:14:40 EST 2019]; root of context hierarchy
+16-Feb-2019 19:14:41.410 INFO [http-nio-8083-exec-16] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1074 ms
+16-Feb-2019 19:14:41.412 INFO [http-nio-8083-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [1,880] ms
+16-Feb-2019 19:14:41.418 INFO [http-nio-8083-exec-11] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 19:15:05.724 INFO [http-nio-8083-exec-13] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 19:14:40 EST 2019]; root of context hierarchy
+16-Feb-2019 19:15:06.239 INFO [http-nio-8083-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 19:15:06.251 INFO [http-nio-8083-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 19:15:06.252 WARNING [http-nio-8083-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 19:15:06.993 INFO [http-nio-8083-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 19:15:07.022 INFO [http-nio-8083-exec-12] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 19:15:07.119 INFO [http-nio-8083-exec-12] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 19:15:07 EST 2019]; root of context hierarchy
+16-Feb-2019 19:15:07.166 INFO [http-nio-8083-exec-12] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 19:15:07.317 INFO [http-nio-8083-exec-12] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 19:15:07.439 INFO [http-nio-8083-exec-12] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 19:15:07.636 INFO [http-nio-8083-exec-12] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 19:15:07.683 INFO [http-nio-8083-exec-12] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 19:15:07.977 INFO [http-nio-8083-exec-12] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 19:15:07 EST 2019]; root of context hierarchy
+16-Feb-2019 19:15:08.040 INFO [http-nio-8083-exec-12] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 19:15:07 EST 2019]; root of context hierarchy
+16-Feb-2019 19:15:08.129 INFO [http-nio-8083-exec-12] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1107 ms
+16-Feb-2019 19:15:08.132 INFO [http-nio-8083-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [1,881] ms
+16-Feb-2019 19:15:08.141 INFO [http-nio-8083-exec-24] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 19:22:42.733 INFO [http-nio-8083-exec-33] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 19:15:07 EST 2019]; root of context hierarchy
+16-Feb-2019 19:22:43.250 INFO [http-nio-8083-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 19:22:43.261 INFO [http-nio-8083-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 19:22:43.262 WARNING [http-nio-8083-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 19:22:44.040 INFO [http-nio-8083-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 19:22:44.065 INFO [http-nio-8083-exec-30] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 19:22:44.159 INFO [http-nio-8083-exec-30] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 19:22:44 EST 2019]; root of context hierarchy
+16-Feb-2019 19:22:44.204 INFO [http-nio-8083-exec-30] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 19:22:44.369 INFO [http-nio-8083-exec-30] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 19:22:44.485 INFO [http-nio-8083-exec-30] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 19:22:44.630 INFO [http-nio-8083-exec-30] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 19:22:44.673 INFO [http-nio-8083-exec-30] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 19:22:44.936 INFO [http-nio-8083-exec-30] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 19:22:44 EST 2019]; root of context hierarchy
+16-Feb-2019 19:22:44.993 INFO [http-nio-8083-exec-30] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 19:22:44 EST 2019]; root of context hierarchy
+16-Feb-2019 19:22:45.076 INFO [http-nio-8083-exec-30] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1011 ms
+16-Feb-2019 19:22:45.078 INFO [77] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [1,817] ms
+16-Feb-2019 19:22:45.085 INFO [http-nio-8083-exec-35] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 19:23:10.116 INFO [http-nio-8083-exec-40] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 19:22:44 EST 2019]; root of context hierarchy
+16-Feb-2019 19:23:10.635 INFO [http-nio-8083-exec-40] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 19:23:10.645 INFO [http-nio-8083-exec-41] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 19:23:10.646 WARNING [http-nio-8083-exec-41] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 19:23:11.413 INFO [http-nio-8083-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 19:23:11.438 INFO [http-nio-8083-exec-41] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 19:23:11.532 INFO [http-nio-8083-exec-41] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 19:23:11 EST 2019]; root of context hierarchy
+16-Feb-2019 19:23:11.578 INFO [http-nio-8083-exec-41] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 19:23:11.731 INFO [http-nio-8083-exec-41] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 19:23:11.864 INFO [http-nio-8083-exec-41] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 19:23:12.023 INFO [http-nio-8083-exec-41] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 19:23:12.061 INFO [http-nio-8083-exec-41] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 19:23:12.338 INFO [http-nio-8083-exec-41] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 19:23:11 EST 2019]; root of context hierarchy
+16-Feb-2019 19:23:12.401 INFO [http-nio-8083-exec-41] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 19:23:11 EST 2019]; root of context hierarchy
+16-Feb-2019 19:23:12.485 INFO [http-nio-8083-exec-41] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1047 ms
+16-Feb-2019 19:23:12.487 INFO [http-nio-8083-exec-41] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [1,842] ms
+16-Feb-2019 19:23:12.493 INFO [http-nio-8083-exec-33] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 22:58:00.377 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FirstMavenProjectUsingArchetype]
+16-Feb-2019 22:58:00.387 INFO [Catalina-utility-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 18:44:11 EST 2019]; root of context hierarchy
+16-Feb-2019 22:58:00.415 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml]
+16-Feb-2019 22:58:00.419 WARNING [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FirstMavenProjectUsingArchetype] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml] has been ignored
+16-Feb-2019 22:58:00.425 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml]
+ java.lang.IllegalStateException: Error starting child
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1832)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1621)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1144)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1346)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1350)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5e4087b3]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4783)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	... 24 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/bretthanson/Desktop/FirstMavenProjectUsingArchetype/target/spring-mvc-webapp] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 28 more
+
+16-Feb-2019 22:58:00.428 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml] has finished in [12] ms
+16-Feb-2019 23:22:31.399 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2019 23:22:31.400 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+16-Feb-2019 23:22:31.411 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 23:22:31.418 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2019 23:22:31.426 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 19:23:11 EST 2019]; root of context hierarchy
+16-Feb-2019 23:22:31.475 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+16-Feb-2019 23:22:31.478 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 23:22:31.480 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+16-Feb-2019 23:22:31.481 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 23:43:17.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+16-Feb-2019 23:43:17.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+16-Feb-2019 23:43:17.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+16-Feb-2019 23:43:17.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+16-Feb-2019 23:43:17.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+16-Feb-2019 23:43:17.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+16-Feb-2019 23:43:17.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home
+16-Feb-2019 23:43:17.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.1+13-LTS
+16-Feb-2019 23:43:17.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Feb-2019 23:43:17.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+16-Feb-2019 23:43:17.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+16-Feb-2019 23:43:17.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2019 23:43:17.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2019 23:43:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2019 23:43:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/logging.properties
+16-Feb-2019 23:43:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2019 23:43:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Bretts-MBP
+16-Feb-2019 23:43:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2019 23:43:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2019 23:43:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2019 23:43:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Feb-2019 23:43:17.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+16-Feb-2019 23:43:17.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16
+16-Feb-2019 23:43:17.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/temp
+16-Feb-2019 23:43:17.245 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bretthanson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+16-Feb-2019 23:43:17.304 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+16-Feb-2019 23:43:17.348 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 23:43:17.350 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [604] milliseconds
+16-Feb-2019 23:43:17.409 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2019 23:43:17.409 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+16-Feb-2019 23:43:17.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 23:43:17.439 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 23:43:19.022 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 23:43:19.065 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 23:43:19.191 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 23:43:19 EST 2019]; root of context hierarchy
+16-Feb-2019 23:43:19.245 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 23:43:19.515 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 23:43:19.663 INFO [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 23:43:19.864 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 23:43:19.928 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 23:43:20.308 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:43:19 EST 2019]; root of context hierarchy
+16-Feb-2019 23:43:20.388 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:43:19 EST 2019]; root of context hierarchy
+16-Feb-2019 23:43:20.495 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1430 ms
+16-Feb-2019 23:43:20.529 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [3,112] ms
+16-Feb-2019 23:43:20.529 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml]
+16-Feb-2019 23:43:20.530 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FirstMavenProjectUsingArchetype] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml] has been ignored
+16-Feb-2019 23:43:20.534 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml]
+ java.lang.IllegalStateException: Error starting child
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1832)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1577)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:929)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:928)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:638)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6b92a0d1]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4783)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4918)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	... 37 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/bretthanson/Desktop/FirstMavenProjectUsingArchetype/target/spring-mvc-webapp] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 41 more
+
+16-Feb-2019 23:43:20.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/FirstMavenProjectUsingArchetype.xml] has finished in [7] ms
+16-Feb-2019 23:43:20.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/docs]
+16-Feb-2019 23:43:20.555 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/docs] has finished in [18] ms
+16-Feb-2019 23:43:20.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/manager]
+16-Feb-2019 23:43:20.600 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/manager] has finished in [43] ms
+16-Feb-2019 23:43:20.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/examples]
+16-Feb-2019 23:43:20.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/examples] has finished in [298] ms
+16-Feb-2019 23:43:20.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/ROOT]
+16-Feb-2019 23:43:20.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/ROOT] has finished in [24] ms
+16-Feb-2019 23:43:20.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/host-manager]
+16-Feb-2019 23:43:20.947 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/webapps/host-manager] has finished in [23] ms
+16-Feb-2019 23:43:20.957 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+16-Feb-2019 23:43:20.965 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 23:43:20.972 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3,621] milliseconds
+16-Feb-2019 23:43:23.113 INFO [http-nio-8081-exec-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 23:43:19 EST 2019]; root of context hierarchy
+16-Feb-2019 23:43:23.641 INFO [http-nio-8081-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 23:43:23.665 INFO [http-nio-8081-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 23:43:23.667 WARNING [http-nio-8081-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 23:43:24.524 INFO [http-nio-8081-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 23:43:24.551 INFO [http-nio-8081-exec-8] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 23:43:24.646 INFO [http-nio-8081-exec-8] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 23:43:24 EST 2019]; root of context hierarchy
+16-Feb-2019 23:43:24.691 INFO [http-nio-8081-exec-8] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 23:43:24.862 INFO [http-nio-8081-exec-8] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 23:43:24.986 INFO [http-nio-8081-exec-8] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 23:43:25.149 INFO [http-nio-8081-exec-8] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 23:43:25.191 INFO [http-nio-8081-exec-8] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 23:43:25.489 INFO [http-nio-8081-exec-8] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:43:24 EST 2019]; root of context hierarchy
+16-Feb-2019 23:43:25.546 INFO [http-nio-8081-exec-8] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:43:24 EST 2019]; root of context hierarchy
+16-Feb-2019 23:43:25.630 INFO [http-nio-8081-exec-8] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1079 ms
+16-Feb-2019 23:43:25.633 INFO [http-nio-8081-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [1,968] ms
+16-Feb-2019 23:43:25.639 INFO [http-nio-8081-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 23:45:22.733 INFO [http-nio-8081-exec-11] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring-dispatcher': initialization started
+16-Feb-2019 23:45:22.739 INFO [http-nio-8081-exec-11] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Sat Feb 16 23:45:22 EST 2019]; parent: Root WebApplicationContext
+16-Feb-2019 23:45:22.740 INFO [http-nio-8081-exec-11] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 23:45:22.772 INFO [http-nio-8081-exec-11] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 23:45:22.787 INFO [http-nio-8081-exec-11] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 23:45:22.812 INFO [http-nio-8081-exec-11] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Sat Feb 16 23:45:22 EST 2019]; parent: Root WebApplicationContext
+16-Feb-2019 23:45:22.834 INFO [http-nio-8081-exec-11] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Sat Feb 16 23:45:22 EST 2019]; parent: Root WebApplicationContext
+16-Feb-2019 23:45:22.890 INFO [http-nio-8081-exec-11] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring-dispatcher': initialization completed in 157 ms
+16-Feb-2019 23:48:54.450 INFO [http-nio-8081-exec-15] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Sat Feb 16 23:45:22 EST 2019]; parent: Root WebApplicationContext
+16-Feb-2019 23:48:54.462 INFO [http-nio-8081-exec-15] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 23:43:24 EST 2019]; root of context hierarchy
+16-Feb-2019 23:48:54.984 INFO [http-nio-8081-exec-15] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 23:48:54.999 INFO [http-nio-8081-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 23:48:55.000 WARNING [http-nio-8081-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 23:48:55.875 INFO [http-nio-8081-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 23:48:55.911 INFO [http-nio-8081-exec-12] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 23:48:56.026 INFO [http-nio-8081-exec-12] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 23:48:56 EST 2019]; root of context hierarchy
+16-Feb-2019 23:48:56.078 INFO [http-nio-8081-exec-12] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 23:48:56.269 INFO [http-nio-8081-exec-12] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 23:48:56.448 INFO [http-nio-8081-exec-12] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 23:48:56.668 INFO [http-nio-8081-exec-12] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 23:48:56.733 INFO [http-nio-8081-exec-12] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 23:48:57.044 INFO [http-nio-8081-exec-12] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:48:56 EST 2019]; root of context hierarchy
+16-Feb-2019 23:48:57.101 INFO [http-nio-8081-exec-12] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:48:56 EST 2019]; root of context hierarchy
+16-Feb-2019 23:48:57.187 INFO [http-nio-8081-exec-12] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1276 ms
+16-Feb-2019 23:48:57.189 INFO [http-nio-8081-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [2,190] ms
+16-Feb-2019 23:48:57.196 INFO [http-nio-8081-exec-20] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 23:49:19.559 INFO [http-nio-8081-exec-19] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 23:48:56 EST 2019]; root of context hierarchy
+16-Feb-2019 23:49:20.082 INFO [http-nio-8081-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 23:49:20.113 INFO [http-nio-8081-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 23:49:20.113 WARNING [http-nio-8081-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 23:49:20.875 INFO [http-nio-8081-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 23:49:20.901 INFO [http-nio-8081-exec-11] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 23:49:20.997 INFO [http-nio-8081-exec-11] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 23:49:20 EST 2019]; root of context hierarchy
+16-Feb-2019 23:49:21.042 INFO [http-nio-8081-exec-11] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 23:49:21.202 INFO [http-nio-8081-exec-11] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 23:49:21.319 INFO [http-nio-8081-exec-11] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 23:49:21.473 INFO [http-nio-8081-exec-11] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 23:49:21.517 INFO [http-nio-8081-exec-11] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 23:49:21.843 INFO [http-nio-8081-exec-11] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:49:20 EST 2019]; root of context hierarchy
+16-Feb-2019 23:49:21.899 INFO [http-nio-8081-exec-11] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:49:20 EST 2019]; root of context hierarchy
+16-Feb-2019 23:49:21.982 INFO [http-nio-8081-exec-11] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1080 ms
+16-Feb-2019 23:49:21.984 INFO [http-nio-8081-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [1,871] ms
+16-Feb-2019 23:49:21.989 INFO [http-nio-8081-exec-23] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 23:50:01.016 INFO [http-nio-8081-exec-28] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 23:49:20 EST 2019]; root of context hierarchy
+16-Feb-2019 23:50:01.535 INFO [http-nio-8081-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 23:50:01.550 INFO [http-nio-8081-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 23:50:01.551 WARNING [http-nio-8081-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 23:50:02.277 INFO [http-nio-8081-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 23:50:02.305 INFO [http-nio-8081-exec-24] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 23:50:02.401 INFO [http-nio-8081-exec-24] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 23:50:02 EST 2019]; root of context hierarchy
+16-Feb-2019 23:50:02.445 INFO [http-nio-8081-exec-24] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 23:50:02.596 INFO [http-nio-8081-exec-24] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 23:50:02.708 INFO [http-nio-8081-exec-24] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 23:50:02.878 INFO [http-nio-8081-exec-24] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 23:50:02.922 INFO [http-nio-8081-exec-24] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 23:50:03.217 INFO [http-nio-8081-exec-24] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:50:02 EST 2019]; root of context hierarchy
+16-Feb-2019 23:50:03.273 INFO [http-nio-8081-exec-24] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:50:02 EST 2019]; root of context hierarchy
+16-Feb-2019 23:50:03.373 INFO [http-nio-8081-exec-24] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1068 ms
+16-Feb-2019 23:50:03.375 INFO [http-nio-8081-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [1,825] ms
+16-Feb-2019 23:50:03.381 INFO [http-nio-8081-exec-27] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 23:50:16.203 INFO [http-nio-8081-exec-28] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 23:50:02 EST 2019]; root of context hierarchy
+16-Feb-2019 23:50:16.718 INFO [http-nio-8081-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 23:50:16.729 INFO [http-nio-8081-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 23:50:16.730 WARNING [http-nio-8081-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 23:50:17.477 INFO [http-nio-8081-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 23:50:17.505 INFO [http-nio-8081-exec-26] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 23:50:17.597 INFO [http-nio-8081-exec-26] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 23:50:17 EST 2019]; root of context hierarchy
+16-Feb-2019 23:50:17.641 INFO [http-nio-8081-exec-26] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 23:50:17.816 INFO [http-nio-8081-exec-26] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 23:50:17.936 INFO [http-nio-8081-exec-26] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 23:50:18.088 INFO [http-nio-8081-exec-26] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 23:50:18.130 INFO [http-nio-8081-exec-26] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 23:50:18.417 INFO [http-nio-8081-exec-26] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:50:17 EST 2019]; root of context hierarchy
+16-Feb-2019 23:50:18.469 INFO [http-nio-8081-exec-26] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:50:17 EST 2019]; root of context hierarchy
+16-Feb-2019 23:50:18.561 INFO [http-nio-8081-exec-26] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1056 ms
+16-Feb-2019 23:50:18.563 INFO [http-nio-8081-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [1,834] ms
+16-Feb-2019 23:50:18.572 INFO [http-nio-8081-exec-27] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 23:54:35.243 INFO [http-nio-8081-exec-42] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 23:50:17 EST 2019]; root of context hierarchy
+16-Feb-2019 23:54:35.754 INFO [http-nio-8081-exec-42] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ContacListMVC]
+16-Feb-2019 23:54:35.766 INFO [http-nio-8081-exec-34] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml]
+16-Feb-2019 23:54:35.767 WARNING [http-nio-8081-exec-34] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ContacListMVC] in deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has been ignored
+16-Feb-2019 23:54:36.556 INFO [http-nio-8081-exec-34] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2019 23:54:36.581 INFO [http-nio-8081-exec-34] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-Feb-2019 23:54:36.676 INFO [http-nio-8081-exec-34] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Feb 16 23:54:36 EST 2019]; root of context hierarchy
+16-Feb-2019 23:54:36.723 INFO [http-nio-8081-exec-34] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-dispatcher-servlet.xml]
+16-Feb-2019 23:54:36.885 INFO [http-nio-8081-exec-34] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [spring-persistence.xml]
+16-Feb-2019 23:54:37.017 INFO [http-nio-8081-exec-34] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-Feb-2019 23:54:37.165 INFO [http-nio-8081-exec-34] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello/sayhi],methods=[GET]}" onto public java.lang.String com.thesoftwareguild.contaclistmvc.HelloController.sayHi(java.util.Map<java.lang.String, java.lang.Object>)
+16-Feb-2019 23:54:37.213 INFO [http-nio-8081-exec-34] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.2.2.Final
+16-Feb-2019 23:54:37.540 INFO [http-nio-8081-exec-34] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:54:36 EST 2019]; root of context hierarchy
+16-Feb-2019 23:54:37.610 INFO [http-nio-8081-exec-34] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Feb 16 23:54:36 EST 2019]; root of context hierarchy
+16-Feb-2019 23:54:37.727 INFO [http-nio-8081-exec-34] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1145 ms
+16-Feb-2019 23:54:37.730 INFO [http-nio-8081-exec-34] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/bretthanson/Desktop/Java/bretthanson/apache-tomcat-9.0.16/conf/Catalina/localhost/ContacListMVC.xml] has finished in [1,964] ms
+16-Feb-2019 23:54:37.738 INFO [http-nio-8081-exec-38] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ContacListMVC]] after start() had already been called. The second call will be ignored.
+16-Feb-2019 23:58:07.213 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2019 23:58:07.214 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+16-Feb-2019 23:58:07.223 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 23:58:07.231 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2019 23:58:07.238 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Feb 16 23:54:36 EST 2019]; root of context hierarchy
+16-Feb-2019 23:58:07.253 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+16-Feb-2019 23:58:07.255 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Feb-2019 23:58:07.256 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+16-Feb-2019 23:58:07.257 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

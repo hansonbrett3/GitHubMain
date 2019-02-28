@@ -1,0 +1,65 @@
+14-Feb-2019 16:31:49.093 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 16:31:49.285 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+14-Feb-2019 16:31:51.318 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+14-Feb-2019 16:31:51.318 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+14-Feb-2019 16:31:51.319 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@32fd5bc')
+14-Feb-2019 16:31:53.516 INFO [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+14-Feb-2019 16:31:54.993 INFO [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 16:31:55.123 INFO [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+14-Feb-2019 16:32:22.316 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 16:32:22.508 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+14-Feb-2019 16:32:24.200 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+14-Feb-2019 16:32:24.200 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+14-Feb-2019 16:32:24.202 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@acb1c9c')
+14-Feb-2019 16:32:24.353 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+14-Feb-2019 16:32:24.354 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+14-Feb-2019 16:32:24.365 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+14-Feb-2019 16:32:33.082 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 16:32:33.280 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+14-Feb-2019 16:32:35.317 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+14-Feb-2019 16:32:35.317 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+14-Feb-2019 16:32:35.319 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4ba1f425')
+14-Feb-2019 16:32:35.482 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+14-Feb-2019 16:32:35.482 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+14-Feb-2019 16:32:35.493 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+14-Feb-2019 16:52:29.246 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 16:52:29.444 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+14-Feb-2019 16:52:31.073 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+14-Feb-2019 16:52:31.073 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+14-Feb-2019 16:52:31.074 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@41d84abb')
+14-Feb-2019 16:52:31.211 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+14-Feb-2019 16:52:31.211 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+14-Feb-2019 16:52:31.218 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+14-Feb-2019 16:52:39.012 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 16:52:39.206 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+14-Feb-2019 16:52:41.176 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+14-Feb-2019 16:52:41.177 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+14-Feb-2019 16:52:41.178 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@acb1c9c')
+14-Feb-2019 16:52:41.340 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+14-Feb-2019 16:52:41.343 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+14-Feb-2019 16:52:41.354 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+14-Feb-2019 16:54:07.680 INFO [http-nio-8081-exec-20] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+14-Feb-2019 16:54:08.909 INFO [http-nio-8081-exec-13] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 16:54:08.981 INFO [http-nio-8081-exec-13] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+14-Feb-2019 16:54:46.373 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 16:54:46.612 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+14-Feb-2019 16:54:48.318 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+14-Feb-2019 16:54:48.318 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+14-Feb-2019 16:54:48.319 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4d84688f')
+14-Feb-2019 16:54:48.440 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+14-Feb-2019 16:54:48.441 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+14-Feb-2019 16:54:48.456 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+14-Feb-2019 16:54:57.021 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 16:54:57.217 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+14-Feb-2019 16:54:59.151 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+14-Feb-2019 16:54:59.152 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+14-Feb-2019 16:54:59.154 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3e149513')
+14-Feb-2019 16:54:59.321 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+14-Feb-2019 16:54:59.322 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+14-Feb-2019 16:54:59.336 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+14-Feb-2019 22:40:26.856 INFO [http-nio-8081-exec-21] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+14-Feb-2019 22:40:35.711 INFO [http-nio-8081-exec-27] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 22:40:35.772 INFO [http-nio-8081-exec-27] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+14-Feb-2019 22:40:39.154 INFO [http-nio-8081-exec-28] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'spring-dispatcher'
+14-Feb-2019 23:05:05.222 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2019 23:05:05.275 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
